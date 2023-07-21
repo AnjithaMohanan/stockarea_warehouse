@@ -1,0 +1,111 @@
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+table * {
+  position: relative;
+}
+table thead tr {
+  height: 60px;
+  background: #FFED86;
+  font-size: 18px;
+}
+table tbody tr {
+  height: 48px;
+  border: 0.5px solid #E3F1D5;
+  font-size: 16px;
+}
+table tbody tr:first-child {
+  border-top: 0;  
+}
+table td, table th {
+  text-align: center;
+}
+tr:hover {
+  background-color: #fafafa;
+}
+thead tr:hover {
+  background: #FFED86;
+}
+.warehouse-detail-wrapper{
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+.warehouse-card{
+  width: 60%;
+  background-color: white;
+  margin: auto;
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 16px;
+  padding: 8px;
+}
+.details-wrapper {
+  text-align: left;
+}
+.filter-wrapper{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.search-input{
+  padding: 7px 10px;
+  width: 20%;
+  outline: none;
+  border: none;
+  border: 1px solid gray;
+  font-size: 16px;
+  border-radius: 6px;
+}
+.list {
+  list-style: none;
+}
+.link{
+  color: #1e88e5;
+  text-decoration: none;
+  font-size: 16px;
+}
+.filter{
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  text-align: left;
+  margin: auto;
+  margin-top: 20px;
+}
+.filter ul{
+  padding: 0;
+  margin-right: 20px;
+  margin-left: 0;
+}
+
+@media screen and (max-width: 35.5em) {
+  table {
+    width: 100%;
+  }
+  .filter{
+    display: block;
+  }
+  .search-input{
+    width: 80%;
+  }
+  .warehouse-detail-wrapper{
+    width: 100%;
+  }
+}
+body {
+  background: #e3f2fd;
+  font: 400 14px "Calibri", "Arial";
+  padding: 20px;
+}
+
+blockquote {
+  color: white;
+  text-align: center;
+}
